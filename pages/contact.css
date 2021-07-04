@@ -1,0 +1,43 @@
+.back-arrow {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.icon-clr {
+  color: #333333;
+}
+
+/* CARD CSS BELOW REMOVE IF NOT LIKE */
+.card {
+  z-index: 1;
+  position: relative;
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.banner {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-image: url('https://picsum.photos/200/300');
+  background-size: cover;
+  border-bottom: solid 1px lightgrey;
+}
+
+.card ul {
+  color: #333333;
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+  margin-top: 87px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
