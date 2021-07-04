@@ -39,9 +39,8 @@ main {
 
 #landing-text {
     display: flex;
-    flex: 0 1 40vw;
+    flex: 0 1 50vw;
     /* flex grow, flex shrink , viewport width */
-    height: 50vh;
     justify-content: center;
     align-items: center;
     text-align: center;
